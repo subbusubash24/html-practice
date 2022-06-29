@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 1300px;
+    margin: auto;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-wrapper .header-logo{
+    width: 90px;
+    height: 90px;
+    border: solid 1px red;
+}
+
+.banner-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-wrapper .banner-text{
+    height: 800px;
+    width: 50%;
+    border: solid 1px black;
+}
+
+.banner-wrapper .banner-image{
+    height: 800px;
+    width: 50%;
+    border: solid 1px yellow;
+}
+
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-wrapper .about-text{
+    height: 800px;
+    width: 50%;
+    border: solid 1px black;
+}
+
+.about-wrapper .about-image{
+    height: 800px;
+    width: 50%;
+    border: solid 1px yellow;
+
+}
+
+.statistics-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.statistics-wrapper .statistics-item{
+    border: solid 1px yellow;
+    height: 250px;
+
+}
+
+.serice-header{
+    height: 220px;
+    border: solid 1px purple;
+
+}
+
+.service-content{
+    height: 811px;
+    border: solid 1px green;
+}
+
+.service-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-wrapper .service-items{
+    height: 340px;
+    border: solid 1px blue;
+    width: 33.333%;
+}
+
+.features-header{
+    height: 150px;
+    border: solid 1px indigo;
+
+}
+
+.features-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-text{
+    height: 500px;
+    width: 50%;
+    border: solid 1px orangered;
+}
+
+.features-images{
+    height: 500px;
+    width: 50%;
+    border: solid 1px violet;
+}
